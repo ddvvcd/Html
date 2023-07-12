@@ -38,7 +38,7 @@
                 box-sizing: border-box;
                 float: left;
             }
-            
+
             .call {
                 width: 326px;
                 height: 133px;
@@ -78,6 +78,23 @@
                 margin-top: 5px;
             }
 
+            section > article > ul > li {
+                list-style: none;
+            }
+
+            section > article > ul > li > img {
+                width: 150px;
+                height: 100px;
+                float: left;
+            }
+
+            section > article > ul > li > a {
+                text-decoration: none;
+                list-style: none;
+                text-align: center;
+                font-size: 12px;
+            }
+
             footer {
                 width: 1000px;
                 height: 130px;
@@ -91,22 +108,81 @@
     <body>
         <div id="container">
             <header>
-                <div></div>
+                <div>
+                    <a href="#"><img src="./images/header_logo.jpg" alt="로고" class="logo"></a>
+                </div>
             </header>
             <main>
                 <div>
-                    <div class="banner"></div>
-                    <div class="call"></div>
+                    <div class="banner">
+                        <img src="./image/main_banner_txt.png" alt="">
+                        <img src="./image/main_banner_local.jpg" alt="">
+                    </div>
+                    <div class="call">
+                        <img src="./images/main_call_num.png" alt="">
+                        <img src="./images/main_call_phone.png" alt="">
+                        <img src="./images/main_call_tit.png" alt="">
+                        <img src="./images/main_call_txt.png" alt="">
+                    </div>
                     <div class="qna"></div>
                 </div>
                 <section>
                     <aside></aside>
-                    <article></article>
-                    <article></article>
-                    <article></article>
+                    <article>
+                        <h4>서울시 매물정보</h4>
+                        <ul>
+                            <li>
+                                <img src="./image/thumbnail_sample1.jpg" alt="">
+                                <a href="#">[아파트] 강변 신축아파트 분양 (방:5/욕실2) / 189㎡ / 매매가 20,800 분양가 20,800</a>
+                            </li>
+                            <li>
+                                <img src="./image/thumbnail_sample2.jpg" alt="">
+                                <a href="#">[아파트] 삼성동 전세 (방:3/욕실2) / 157㎡ / 매매가 21,100</a>
+                            </li>
+                            <li>
+                                <img src="./image/thumbnail_sample3.jpg" alt="">
+                                <a href="#">[빌라] 안국동 매매 (방:8/욕실3) / 309㎡ / 매매가 11,800</a>
+                            </li>
+                            <li>
+                                <img src="./image/thumbnail_sample4.jpg" alt="">
+                                <a href="#">[복층빌라] 한남동 월세 (방:4/욕실2) / 157㎡ / 보증금 3,000 월세80</a>
+                            </li>
+                            <li>
+                                <img src="./image/thumbnail_sample5.jpg" alt="">
+                                <a href="#">[아파트] 역삼동 급매 (방:3/욕실2) / 109㎡ / 매매가 11,800</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h4>경기도 매물정보</h4>
+                        <ul>
+                            <li><a href="#">[아파트] 강변 신축아파트 분양 (방:5/욕실2) / 189㎡ / 매매가 20,800 분양가 20,800</a></li>
+                            <li><a href="#">[아파트] 삼성동 전세 (방:3/욕실2) / 157㎡ / 매매가 21,100</a></li>
+                            <li><a href="#">[빌라] 안국동 매매 (방:8/욕실3) / 309㎡ / 매매가 11,800</a></li>
+                            <li><a href="#">[복층빌라] 한남동 월세 (방:4/욕실2) / 157㎡ / 보증금 3,000 월세80</a></li>
+                            <li><a href="#">[아파트] 역삼동 급매 (방:3/욕실2) / 109㎡ / 매매가 11,800</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h4>부산시 매물정보</h4>
+                        <ul>
+                            <li><a href="#">[아파트] 강변 신축아파트 분양 (방:5/욕실2) / 189㎡ / 매매가 20,800 분양가 20,800</a></li>
+                            <li><a href="#">[아파트] 삼성동 전세 (방:3/욕실2) / 157㎡ / 매매가 21,100</a></li>
+                            <li><a href="#">[빌라] 안국동 매매 (방:8/욕실3) / 309㎡ / 매매가 11,800</a></li>
+                            <li><a href="#">[복층빌라] 한남동 월세 (방:4/욕실2) / 157㎡ / 보증금 3,000 월세80</a></li>
+                            <li><a href="#">[아파트] 역삼동 급매 (방:3/욕실2) / 109㎡ / 매매가 11,800</a></li>
+                        </ul>
+                    </article>
                 </section>
             </main>
-            <footer></footer>
+            <footer>
+                <div>
+                    <img src="./images/footer_logo.jpg" alt="">
+                    <p>(주)컴퍼니 / 사업자등록번호 123-45-67890 / 통신판매업신고 제 2013-컴퍼니구-123호 / 등록번호 컴퍼니01234 (2013.04.01) / 발행인 : 홍길동
+                        <br>대표 : 홍길동 / 이메일 : email@mail.mail / 전화 : 01) 234-5678 / 부산시 금정구 따듯한동 123-1
+                        <br>Copyright(C)컴퍼니 All rights reserved.</p>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
